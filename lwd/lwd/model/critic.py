@@ -109,7 +109,7 @@ class CriticWithTarget(nn.Module):
         action_horizon: int = 30,
         hidden_dim: int = 512,
         action_pool_dim: int = 256,
-        ema_rate: float = 0.005,
+        ema_rate: float = 0.995,
     ):
         super().__init__()
         self.critic = DoubleCritic(

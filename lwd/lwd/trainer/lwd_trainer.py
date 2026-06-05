@@ -35,7 +35,7 @@ class LWDConfig:
     v_min: float = -0.1
     v_max: float = 1.1
     gamma: float = 0.9999
-    ema_rate: float = 0.005
+    ema_rate: float = 0.995
     tau_base_offline: float = 0.6
     tau_base_online: float = 0.9
     alpha: float = 0.3

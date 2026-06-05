@@ -12,7 +12,7 @@ num_atoms: 201
 v_min: -0.1
 v_max: 1.1
 gamma: 0.9999
-ema_rate: 0.005
+ema_rate: 0.995
 tau_base_offline: 0.6
 tau_base_online: 0.9      # More optimistic in online stage
 alpha: 0.3
